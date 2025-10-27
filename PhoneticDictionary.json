@@ -135,7 +135,7 @@
 	"(?i)\\bhm\\b": "hmm",
 	"(?i)\\bthat've\\b": "that uhv",
 	"(?i)\\by'see\\b": "yuh'see",
-	"(?i)\\ugh\\b": "urrg",
+	"(?i)\\bugh\\b": "urrg",
 
 	
 	// Conditional Pronunciations
