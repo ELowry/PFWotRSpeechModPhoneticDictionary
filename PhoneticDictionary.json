@@ -18,9 +18,9 @@
 	"(?<=\\S)\\s--\\s(?=\\S)": "; ",
 	// Plain hyphen, ONLY when spaced (won’t hit Kerz-Got-Stabbed)
 	"(?<=\\S)\\s-\\s(?=\\S)": "; ",
-	// Elipses
-	"\\.\\.\\.": "; ",
 	// Colon
+	"\\.\\.\\.": "; ",
+	// Elipses
 	"(?<=\\S):(?!\\S)": "... ",
 
 		
@@ -276,6 +276,7 @@
 	"(?i)\\bCheliax\\b": "Chel'e'axe",
 	"(?i)\\bCyth\\b": "Sith",
 	"(?i)\\bDaeran\\b": "Dae'rahnn",
+	"(?i)\\bDawei\\b": "Da'way",
 	"(?i)\\bDeadeye\\b": "Dead'eye",
 	"(?i)\\bDerenge\\b": "Duh'rendge",
 	"(?i)\\bDeskari\\b": "Diskahree",
@@ -354,6 +355,7 @@
 	"(?i)\\bShamira\\b": "Shuh'meera",
 	"(?i)\\bShelyn\\b": "Shell'in",
 	"(?i)\\bShynn\\b": "Shin",
+	"(?i)\\bSiabrae\\b": "See'abray",
 	"(?i)\\bSilaena\\b": "Sigh'leena",
 	"(?i)\\bSosiel\\b": "So'sea'l",
 	"(?i)\\bSosiel(?:'s|’s)\\b": "So'sea'l'z",
@@ -379,9 +381,9 @@
 	"(?i)\\bXorges\\b": "Zorjes",
 	"(?i)\\bYaniel\\b": "'Yany'l",
 	"(?i)\\bYaker\\b": "'Yahcur",
-	"(?i)\\bYgefeles\\b": "e'gheff'l's",
+	"(?i)\\bYgefeles\\b": "e'gheff'l'ease",
 	"(?i)\\bYsa\\b": "'E'sah",
-	"(?i)\\bYsenna\\b": "'E'senna",
+	"(?i)\\bYsenna\\b": "E senna",
 	"(?i)\\bZarcie\\b": "Zarr'see",
 	"(?i)\\bZacharius\\b": "Zackar'eye'us",
 	"(?i)\\bZiforian\\b": "Zif orian",
