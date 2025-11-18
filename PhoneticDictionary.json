@@ -1,14 +1,6 @@
 { 
 	// WotR SpeechMod PhoneticDictionary.json
-	// by Valdacil
-	// -----------------
-	// v2.0 -- Added: ethereal, dour, Rubbledum, bow (with preceeding modifiers), befoul, learned, (pause for :), cephalopod, distortions, bathed, gibberish, grimace(s),
-	//                affections, Kiana, detour, moralize, hierarchy, Deadeye, theology
-	//         Modified: Kenabres, Deskari, Desna, demonic, Abadar, bow (catch all after conditionals), historians, Cayden, Aroden, Shelyn, memorize(d,ing), bow special instances,
-	//                 morale
-	//         Added section for text to skip starting with the alignment tags in dialog responses
-	//         Removed all possessive versions of rules since TTS seems to be matching to the non-possessive rule and adding 's automatically
-	// v1.0 -- Initial Release for mod version 1.1.2
+	// by Valdacil & ELowry
 	
 	// Pauses
 	// -----------------
@@ -254,7 +246,9 @@
 	
 	// Pathfinder Specific
 	// -----------------
-	"(?i)\\bAbadar\\b": "Abb'udar",
+	"(?i)\\bAbadar\\b": "Abb'ehd'are",
+	"(?i)\\bAbadarans\\b": "Abb'ehd'are'inns",
+	"(?i)\\bAethylia\\b": "A'ithee'leea",
 	"(?i)\\bAlushinyrra\\b": "Aloo'shin'ear'uh",
 	"(?i)\\bAncientries\\b": "ancient'ree's",
 	"(?i)\\bAnkelle\\b": "'Ahnkell'eh",
@@ -315,7 +309,6 @@
 	"(?i)\\bKonomi\\b": "Koh'no'me",
 	"(?i)\\bKostchtchie\\b": "Kosh'chuh'tchi",
 	"(?i)\\bLathimas\\b": "Lahth'immas",
-	"(?i)\\bthimas\\b": "thimmas",
 	"(?i)\\bLamashtu\\b": "Llama'shtoo",
 	"(?i)\\bLiotr\\b": "Leotur",
 	"(?i)\\bMagnimar\\b": "Magni'marr",
@@ -324,6 +317,7 @@
 	"(?i)\\bMendevian\\b": "Men'dev'eean",
 	"(?i)\\bMendevians\\b": "Men-dev-eeans",
 	"(?i)\\bMephistopheles\\b": "Meffehstoff'ill'ease",
+	"(?i)\\bMessini\\b": "Messeenee",
 	"(?i)\\bMinagho\\b": "Me'nawgo",
 	"(?i)\\bMireya\\b": "Me'ray'uh",
 	"(?i)\\bMorevet\\b": "More uh'vet",
@@ -333,6 +327,7 @@
 	"(?i)\\bNahyndri\\b": "Na hyndree",
 	"(?i)\\bNahyndrian\\b": "Na hyndrian",
 	"(?i)\\bNidal\\b": "Nigh'dall",
+	"(?i)\\bNorte\\b": "Nortt",
 	"(?i)\\bNulkineth\\b": "Nullkeeneth",
 	"(?i)\\bPitax\\b": "Pittax",
 	"(?i)\\bPitaxian\\b": "Pittax'eean",
@@ -361,6 +356,7 @@
 	"(?i)\\bSosiel(?:'s|’s)\\b": "So'sea'l'z",
 	"(?i)\\bTartuccio\\b": "Tar'toot'she'o",
 	"(?i)\\bTian Xia\\b": "T'n'sha",
+	"(?i)\\bthimas\\b": "thimmas",
 	"(?i)\\bTerendelev\\b": "Tuh'rendelevv",
 	"(?i)\\bTirabade\\b": "Teerrahbade",
 	"(?i)\\bUrgathoa\\b": "Oour'gah'though'uh",
